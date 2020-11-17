@@ -1,0 +1,26 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  height: 100%;
+}
+
+#app {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #161616;
+  overflow: auto;
+  font-family: Lato;
+  color: #ffffff;
+}
+
+#app > * {
+  flex: 1;
+}
